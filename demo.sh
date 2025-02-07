@@ -4,6 +4,7 @@
 # include the magic
 ########################
 . demo-magic.sh
+. extras.sh
 
 # hide the evidence
 clear
@@ -15,6 +16,9 @@ clear
 # wait - Waits for the user to press ENTER. If PROMPT_TIMEOUT is set, waits for the specified time.
 # cmd - Enters interactive mode, allowing newly typed commands to be executed within the script.
 # repl - Enters REPL mode, allowing newly typed commands to be executed within the script. Type 'exit' to leave REPL mode.
+# explain - print explanitory text to demo_explain.txt.  Run "make explain" in a separate terminal to see the explain text.
 
 # Example usage of pe command
+wait
+explain "Next will be ${RED}cat Makefile${COLOR_RESET}.\nBe sure you tell everyone to be sitting down."
 pe "cat Makefile"
