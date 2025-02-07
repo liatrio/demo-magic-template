@@ -9,3 +9,8 @@ demo-magic.sh:
 
 demo: demo-magic
 	./demo.sh
+
+explain: 
+	clear
+	tail -f demo_explain.txt
+
