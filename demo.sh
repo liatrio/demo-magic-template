@@ -17,4 +17,4 @@ clear
 # repl - Enters REPL mode, allowing newly typed commands to be executed within the script. Type 'exit' to leave REPL mode.
 
 # Example usage of pe command
-pe "bat Makefile"
+pe "cat Makefile"
